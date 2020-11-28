@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Trying Netlify CMS tool
 date: 2020-11-28T16:15:28.710Z
 modified: 2020-11-28T16:15:28.737Z
