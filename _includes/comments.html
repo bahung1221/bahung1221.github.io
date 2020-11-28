@@ -1,10 +1,20 @@
-<!-- unnecessary file, however you can still use for comment section, e.g disqus -->
-<script
-  src="https://utteranc.es/client.js"
-  repo="username/reponame"
-  issue-term="pathname"
-  label="✨ comment ✨"
-  theme="github-light"
-  crossorigin="anonymous"
-  async
-></script>
+<div class="comments-block"></div>
+
+<script>
+  function initCommentBox() {
+    const theme = document.body.getAttribute("data-theme") || 'light';
+
+    const script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+
+    script.setAttribute('repo', 'bahung1221/bahung1221.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', `github-${theme}`);
+    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('async', 'async');
+
+    document.querySelector('.comments-block').appendChild(script)
+  }
+
+  initCommentBox()
+</script>

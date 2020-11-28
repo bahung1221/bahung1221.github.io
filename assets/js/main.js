@@ -7,9 +7,11 @@
     if (state === "dark") {
       localStorage.setItem("theme", "light");
       body.removeAttribute("data-theme");
+      setCommentTheme('light')
     } else if (state === "light") {
       localStorage.setItem("theme", "dark");
       body.setAttribute("data-theme", "dark");
+      setCommentTheme('dark')
     } else {
       initTheme(state);
     }
@@ -29,3 +31,13 @@
       : area.classList.remove("blurry");
   });
 })();
+
+function setCommentTheme(theme) {
+  const message = {
+    type: 'set-theme',
+    theme: `github-${theme}`
+  }
+
+  const utterances = document.querySelector('iframe').contentWindow
+  utterances.postMessage(message, 'https://utteranc.es')
+}
