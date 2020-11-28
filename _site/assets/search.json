@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "Trying Netlify CMS tool",
+      "tags"     : "netlify-cms",
+      "url"      : "/trying-netlify-cms-tool/",
+      "date"     : "2020-11-28 23:26:37 +0700"
+    } ,
+  
+    {
       "title"    : "Welcome to Jekyll!",
       "tags"     : "",
       "url"      : "/welcome-to-jekyll/",

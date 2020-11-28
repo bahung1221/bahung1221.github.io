@@ -25,6 +25,10 @@
 <lastmod>2020-08-29T09:29:20+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/trying-netlify-cms-tool/</loc>
+<lastmod>2020-11-28T23:26:37+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -38,5 +42,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/thanks/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/admin/</loc>
+<lastmod>2020-11-28T23:10:00+07:00</lastmod>
 </url>
 </urlset>

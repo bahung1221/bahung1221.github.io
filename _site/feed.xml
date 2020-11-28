@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="vi"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="vi" /><updated>2020-11-28T23:01:54+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog của dev</title><subtitle>He's writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/bahung1221&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Hưng</name><email>bahung1221@gmail.com</email></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-08-29T09:29:20+07:00</published><updated>2020-08-29T09:29:20+07:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="vi"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="vi" /><updated>2020-11-28T23:33:49+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blog của dev</title><subtitle>He's writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/bahung1221&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Hưng</name><email>bahung1221@gmail.com</email></author><entry><title type="html">Trying Netlify CMS tool</title><link href="http://localhost:4000/trying-netlify-cms-tool/" rel="alternate" type="text/html" title="Trying Netlify CMS tool" /><published>2020-11-28T23:26:37+07:00</published><updated>2020-11-28T23:26:37+07:00</updated><id>http://localhost:4000/trying-netlify-cms-tool</id><content type="html" xml:base="http://localhost:4000/trying-netlify-cms-tool/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mô hình Agile là gì?? Điểm mạnh của Agile là thế nào mà đa số các công ty ứng dụng??? 🙃🙃&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Dzô ngay cho nóng luôn nào !!!!…..&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;mô-hình-agile&quot;&gt;Mô hình Agile:&lt;/h4&gt;
+
+&lt;p&gt;Agile Software Development - gọi tắt là Agile đã trở nên rất phổ biến trong ngành phần mềm.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Mô hình Agile ra đời với ý tưởng khắc phục nhược điểm của các mô hình truyền thống, phát triển linh hoạt theo từng giai đoạn sẵn sàng đáp ứng đúng yêu cầu của khách hàng hôm nay và sẵn sàng cho những thay đổi vào ngày mai. Đơn giản hơn, Agile là cách thức làm phần mềm linh hoạt để làm sao đưa sản phẩm đến tay người dùng càng nhanh càng tốt càng sớm càng tốt.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;agile-hoạt-động-dựa-trên-4-tuyên-ngôn-và-12-nguyên-tắc&quot;&gt;Agile hoạt động dựa trên 4 tuyên ngôn và 12 nguyên tắc:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;4 Tuyên ngôn:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;♦️ “Cá nhân và sự tương hỗ quan trọng hơn quy trình và công cụ”&lt;/p&gt;
+
+&lt;p&gt;♦️ “Sản phẩm xài được quan trọng hơn tài liệu về sản phẩm”&lt;/p&gt;
+
+&lt;p&gt;♦️ “Cộng tác với khách hàng quan trọng hơn đàm phán hợp đồng”&lt;/p&gt;
+
+&lt;p&gt;♦️ “Phản hồi với sự thay đổi quan trọng hơn bám theo kế hoạch”&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;12 Nguyên tắc:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;♦️ Thõa mãn yêu cầu khách hàng thông qua việc giao hàng sớm và liên tục.&lt;/p&gt;
+
+&lt;p&gt;♦️ Giao phần mềm chạy được cho khách hàng một cách thường xuyên (giao hằng tuần hơn là hằng tháng)&lt;/p&gt;
+
+&lt;p&gt;♦️ Chào đón việc thay đổi yêu cầu, thậm chí là những thay đổi yêu cầu muộn&lt;/p&gt;
+
+&lt;p&gt;♦️ Nhà kinh doanh và kỹ sư lập trình phải làm việc cùng nhau hằng ngày đến suốt dự án&lt;/p&gt;
+
+&lt;p&gt;♦️ Các dự án được xây dựng xung quanh những cá nhân có động lực. Cung cấp cho họ môi trường&lt;br /&gt;
+và sự hỗ trợ cần thiết, và tin tưởng họ để hoàn thành công việc&lt;/p&gt;
+
+&lt;p&gt;♦️ Trao đổi trực tiếp mặt đối mặt là phương pháp hiệu quả nhất để truyền đạt thông tin&lt;/p&gt;
+
+&lt;p&gt;♦️ Phần mềm chạy được là thước đo chính của tiến độ&lt;/p&gt;
+
+&lt;p&gt;♦️ Phát triển bền vững và duy trì được nhịp độ phát triển liên tục&lt;/p&gt;
+
+&lt;p&gt;♦️ Liên tục quan tâm đến kĩ thuật và thiết kế để cải tiến sự linh hoạt&lt;/p&gt;
+
+&lt;p&gt;♦️ Sự đơn giản là cần thiết – nghệ thuật tối đa hóa lượng công việc chưa hoàn thành&lt;/p&gt;
+
+&lt;p&gt;♦️ Nhóm tự tố chức&lt;/p&gt;
+
+&lt;p&gt;♦️ Thích ứng thường xuyên với sự thay đổi.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;quy-trình-hoạt-động-của-agile-&quot;&gt;Quy trình hoạt động của Agile  &lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://stg.blog.saigontek.work/image/2020/11/28/20201128093423_jpg.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Agile phát triển dựa trên quy trình phát triển lặp. Mỗi dự án chia thành các giai đoạn nhỏ để dễ dàng đáp ứng khi có yêu cầu thay đổ từ khách hàng.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Bàn giao cho khách theo từng giai đoạn , cứ mỗi khi một giai đoạn nhỏ được bàn giao, khách hàng có thể đưa ra các thay đổi hoặc yêu cầu mới cho dự án và nhóm phát triển sẽ cập nhật theo đúng yêu cầu mà không cần phải làm lại từ đầu.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;giai-đoạn-trong-quy-trình-&quot;&gt;Giai đoạn trong quy trình  &lt;/h4&gt;
+
+&lt;p&gt;♦️ Lập kế hoạch Kế hoạch tổng thể sẽ được vạch ra trong những tuần đầu tiên. Khách hàng và đội phát triển làm việc cùng nhau và chia các giai đoạn nhỏ cho dự án, ước lượng thời gian, nhân sự, chi phí và tiến độ phát triển cho từng giai đoạn nhỏ.&lt;/p&gt;
+
+&lt;p&gt;Đầu mỗi giai đoạn nhỏ sẽ có một kế hoạch cụ thể vạch ra.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;♦️ Phân tích Việc phân tích không cố định thời gian, nó diễn ra xuyên suốt quá trình phát triển dự án.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;♦️ Thiết kế và lập trình Thiết kế của sản phẩm được cải tiến liên tục. Mã nguồn được coi là sở hữu tập thể. Mọi thành viên được yêu cầu sửa lỗi bất kể lỗi đó là do ai gây ra.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;♦️ Kiểm thử Tất cả các thành viên trong dư án đểu có trách nhiệm đảm bảo dự án. Có lỗi xảy ra, cả team sẽ xử lý không phân biệt lỗi do ai gây ra.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;♦️ Bàn giao sản phẩm Phần mềm được demo hằng tuần, khách hàng xem xét và nhận feedback.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ưu điểm:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tạo được sự hài lòng của khách hàng&lt;/li&gt;
+  &lt;li&gt;Con người và sự tương tác với nhau được chú trọng hơn công cụ, gần hũi nhau hơn tạo được môi trường giao tiếp tốt.&lt;/li&gt;
+  &lt;li&gt;Vận dụng được giao tiếp tốt nhất là đối thoại (face-to-face)&lt;/li&gt;
+  &lt;li&gt;Dễ quản lý sự phát triển của sản phẩm qua các giai đoạn nhỏ&lt;/li&gt;
+  &lt;li&gt;Thường xuyên thích nghi với hoàn cảnh thay đổi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;️Nhược điểm:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thiếu sự nhấn mạnh vào tài liệu và thiết kế cần thiết&lt;/li&gt;
+  &lt;li&gt;Dự án dễ di “sai đường” khi người đại diện khách hàng không nắm rõ về của sản phẩm.&lt;/li&gt;
+  &lt;li&gt;Chỉ có những lập trình viên có kinh nghiêm mới có thể đưa ra các quyết định cần thiết trong qáu trình phát triển dự án.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;createSimpleBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Define a number of columns in the container.&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;columns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;simpleBox&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;simpleBox&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;columns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;column&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;simpleBoxItem&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;column&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;simpleBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// There must be at least one paragraph for the description to be editable.&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// See https://github.com/ckeditor/ckeditor5/issues/1464.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;paragraph&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;column&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;simpleBox&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Hưng</name><email>bahung1221@gmail.com</email></author><category term="netlify-cms" /><summary type="html">Mô hình Agile là gì?? Điểm mạnh của Agile là thế nào mà đa số các công ty ứng dụng??? 🙃🙃</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/upload/agile.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/upload/agile.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-08-29T09:29:20+07:00</published><updated>2020-08-29T09:29:20+07:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
