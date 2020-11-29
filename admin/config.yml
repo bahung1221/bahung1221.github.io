@@ -9,17 +9,32 @@ media_folder: "assets/img/upload"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "post"
+    label: "Posts"
+    folder: "_posts/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # YYYY-MM-DD-title.md
+    fields
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Modified Date", name: "modified", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tag", name: "tag", widget: "list"}
+      - {label: "Tag", name: "tag", multiple: true, widget: "relation", collection: "relation", file: "tags", search_fields: ["tags.*.title"], value_field: "tags.*.title"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Keywords", name: "keywords", multiple: true, widget: "list", field: {label: Title, name: title}, max: 20, minimize_collapsed: true, collapsed: true, allow_add: true}
+
+  - name: "relation"
+    label: "Relation"
+    files:
+      - label: "Tags"
+        name: "tags"
+        file: "_relation/tags.yml"
+        fields:
+          - label: Tags
+            name: tags
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: markdown, required: false}

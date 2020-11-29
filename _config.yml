@@ -1,8 +1,8 @@
 # Site settings
-title: Blog của dev # site title
+title: Blog của Hưng # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
+  Chỉ là một minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính,
+    gặp tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
 lang: vi # default lang
 timezone: Asia/Ho_Chi_Minh # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -12,11 +12,11 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Hưng # author name
   bio: >- # tell to the world
-    My minimalist blog, light and dark mode support, for technically and hobby content, 
-    meet me at my amazing <a href="https://saigontek.work/" target="_blank" rel="noopener">company</a>.
+    Chỉ là một minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính,
+    gặp tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
   username: bahung1221 # general username
   github: bahung1221 # github username
-  facebook: facebook_username # facebook username
+  facebook: khong_co_facebook_dau # facebook username
   email: bahung1221@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
