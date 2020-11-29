@@ -89,11 +89,11 @@ body[data-theme="dark"] {
 
   // Link
   a {
-    color: inherit;
+    color: $dark-text-link-blue;
     text-decoration-color: $dark-smoke;
 
     &:hover {
-      color: $dark-text-link-blue;
+      color: $dark-text-link-blue-active;
     }
 
     &:focus {

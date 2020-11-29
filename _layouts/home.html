@@ -12,3 +12,7 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+{% assign total_posts = site.posts | size %}
+{% if total_posts > site.number_of_posts %}
+<a class="readmore" href="/archive/">Xem thêm ha &#8594;</a>
+{% endif %}
