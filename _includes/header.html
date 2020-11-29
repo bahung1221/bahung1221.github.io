@@ -69,12 +69,23 @@
       site.author.facebook
     }}{% else %}{{ site.title | escape }}{% endif %}"
   />
-  {% if page.location %}
+  {% if page.layout == 'post' %}
   <meta property="og:type" content="article" />
+  {% if site.facebook %}
   <meta
     property="article:publisher"
     content="https://web.facebook.com/{{ site.author.facebook }}"
   />
+  {% endif %}
+  {% if page.tags and page.tags != empty %}
+    {% assign tags = page.tags %}
+    {% for tag in tags %}
+      <meta property="article:tag" content="{{tag | downcase | slugify}}"></meta>
+    {% endfor %}
+  {% endif %}
+  {% if page.keywords and page.keywords != empty %}
+    <meta name="keywords" content="{{page.keywords | join: ", " | downcase}}"></meta>
+  {% endif %}
   {% else %}
   <meta property="og:type" content="website" />
   {% endif %}
