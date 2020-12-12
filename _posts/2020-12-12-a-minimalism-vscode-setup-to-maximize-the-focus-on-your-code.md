@@ -6,6 +6,8 @@ modified: 2020-12-12T08:18:34.482Z
 description: A minimalism VSCode setup to maximize the focus on your code
 tag:
   - Lảm nhảm
+  - VSCode
+  - Minimalism
 image: /assets/img/upload/screen-shot-2020-12-12-at-11.41.55.png
 keywords:
   - VSCode
@@ -35,14 +37,11 @@ By default, VSCode will show 6 tabs in the left explorer: Open Editors, Folder, 
 
 ![Hide all tabs on the left explorer](/assets/img/upload/1-1-.png "Hide all tabs on the left explorer")
 
-### \
-2. Move the Activity Bar from the left to bottom of file explorer
+### 2. Move the Activity Bar from the left to bottom of file explorer
 
 he activity bar on the left hand occupies part of the screen space is unnecessary. To minimize it, we will use [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension, because VSCode doesn’t support out of the box for this option.
 
 After installed **Customize UI** extension, you will be asked to enable **Monkey Patch**, enable it and then add below lines to your **[settings.json](https://code.visualstudio.com/docs/getstarted/settings)**:
-
-
 
 ```json
 "customizeUI.activityBar": "bottom",
@@ -54,8 +53,7 @@ Then reload your editor!
 
 ![Move the Activity Bar to the bottom instead of left](/assets/img/upload/2-1-.png "Move the Activity Bar to the bottom instead of left")
 
-### \
-3. Hide the “Editor Actions” bar
+### 3. Hide the “Editor Actions” bar
 
 I always use keyboard shortcut or command palette to perform **git/editor actions** and try to avoid using mouse as much as possible. So the Editor Actions bar on the top right corner is unnecessary for me.
 
@@ -93,8 +91,6 @@ To use **minimal file icon**, add this line to your **settings.json**:
 
 ![Change file icon to “minimal file icon theme”](/assets/img/upload/5-1-.png "Change file icon to “minimal file icon theme”")
 
-
-
 ### 6. (Opinion) Change color theme and font family
 
 Color theme and font family are things that we can’t say what one is better than another one. For me, the color theme and font-family is affected a lots to overall UI of the editor, so these are just my opinion choices.
@@ -113,8 +109,6 @@ Another important part is **font family**, I’m usin **[Source Code Pro](http
 "customizeUI.font.regular": "Source Code Pro",
 "customizeUI.font.monospace": "Source Code Pro"
 ```
-
-
 
 ### 7. (Opinion) Move search explorer to the bottom panel for wider space and better search experience
 
