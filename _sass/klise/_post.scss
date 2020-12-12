@@ -8,9 +8,12 @@
 
 // Post title
 .header {
-  margin-top: 7.8em;
+  margin-top: 5.5em;
   margin-bottom: 3em;
 
+  @include media-query($on-mobile) {
+    margin-top: 4.5em;
+  }
   .tags {
     margin-left: 3px;
     letter-spacing: 0.5px;
@@ -75,15 +78,27 @@
     text-align: center;
   }
 
-  figure {
-    img {
+  figure, p {
+    > img {
       border-radius: 2px;
+      width: calc(100% + 70px);
+      max-width: unset;
+      margin: 15px -35px 30px;
     }
 
     figcaption {
       margin-top: 5px;
       font-style: italic;
       font-size: $small-font-size;
+    }
+
+    @include media-query($on-mobile) {
+      > img {
+        border-radius: 2px;
+        width: calc(100% + 30px);
+        max-width: unset;
+        margin: 15px -15px 30px;
+      }
     }
   }
 

@@ -122,7 +122,6 @@ If you want to try, do below steps:
 ![Move the search explorer to bottom panel for wider space!](/assets/img/upload/6.png "Move the search explorer to bottom panel for wider space!")
 
 \
-\
 That’s it!!! Hope that will be helpful for your daily work. And sorry for my bad English :D
 
 Thanks and kind regards to VSCode team who made an amazing open source code editor, that powerful and easy to customize, and made the life of developers easier ❤

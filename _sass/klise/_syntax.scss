@@ -8,7 +8,7 @@ code {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  font-size: inherit;
+  font-size: $small-font-size;
 
   &.highlighter-rouge {
     padding: 1px 3px;
@@ -22,17 +22,17 @@ code {
 
 // Codeblock Theme
 pre.highlight, pre {
-  margin: 0 -27px;
-  @include media-query($on-mobile) {
-    margin: 0 calc(51% - 51vw);
-    padding-left: 20px;
-  }
+  margin: 15px -35px 30px;
   border: 1px solid rgba(128,128,128,0.1);
   background-color: #1a1b21;
   border-radius: 2px;
-  padding: 10px;
+  padding: 15px;
   display: block;
   overflow-x: auto;
+  @include media-query($on-mobile) {
+    margin: 0 -15px;
+    padding: 10px 10px 10px 20px;
+  }
 
   > code {
     width: 100%;
