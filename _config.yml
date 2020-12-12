@@ -1,24 +1,24 @@
 # Site settings
 title: Blog của Hưng # site title
 description: >- # site description
-  Chỉ là một minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính,
-    gặp tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
+  Minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính.<br>
+  Lúc thì viết tiếng Việt, hứng lên thì quên luôn tiếng người... Tìm tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
 lang: vi # default lang
 timezone: Asia/Ho_Chi_Minh # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ogp.jpg # This image used for Open Graph more info https://ogp.me/
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Hưng # author name
   bio: >- # tell to the world
-    Chỉ là một minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính,
-    gặp tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
+    Minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính.<br>
+    Lúc thì viết tiếng Việt, hứng lên thì quên luôn tiếng người... Tìm tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
   username: bahung1221 # general username
   github: bahung1221 # github username
   facebook: # facebook username
   email: bahung1221@gmail.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
 url: "https://bahung1221.github.io" #

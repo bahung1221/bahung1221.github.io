@@ -198,7 +198,7 @@
     height: 70px;
     border-radius: 100%;
     user-select: none;
-    background-color: $black;
+    background-color: $avatar-background;
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
@@ -206,13 +206,8 @@
     opacity: 1;
   }
 
-  .author-name {
-    font-size: 1.7em;
-    margin-bottom: 2px;
-  }
-
   .author-bio {
-    margin: 0 auto;
+    margin: 15px auto 0;
     opacity: 0.9;
     max-width: 393px;
     line-height: 1.688;
