@@ -19,10 +19,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Modified Date", name: "modified", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tag", name: "tag", multiple: true, widget: "relation", collection: "relation", file: "tags", search_fields: ["tags.*.title"], value_field: "tags.*.title"}
       - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Tag", name: "tag", multiple: true, widget: "relation", collection: "relation", file: "tags", search_fields: ["tags.*.title"], value_field: "tags.*.title"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Keywords", name: "keywords", multiple: true, widget: "list", field: {label: Title, name: title}, max: 20, minimize_collapsed: true, collapsed: true, allow_add: true}
 
   - name: "relation"
