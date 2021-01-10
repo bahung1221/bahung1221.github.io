@@ -10,7 +10,7 @@ CMS.registerEditorComponent({
         { name: 'caption', label: 'Caption', widget: 'string', required: false },
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^<figure.*>\s*<img src="([^"]*)" alt="([^"]*)".*>\s*(?:<figcaption>([^"]*)<\/figcaption>)\s*<\/figure>$/,
+    pattern: /^<figure.*>\s*<img src="([^"]*)" alt="([^"]*)".*>\s*(?:<figcaption>(.*)<\/figcaption>)\s*<\/figure>$/,
     // Function to extract data elements from the regexp match
     fromBlock: function (match) {
         return {
