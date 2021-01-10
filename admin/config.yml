@@ -8,6 +8,8 @@ media_folder: "assets/img/upload"
 
 publish_mode: editorial_workflow
 
+preview: false
+
 collections:
   - name: "posts"
     label: "Posts"
