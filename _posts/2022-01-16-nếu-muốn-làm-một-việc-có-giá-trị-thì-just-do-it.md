@@ -12,7 +12,7 @@ description: Điều kiện cần để có thể làm ra những thứ có giá
 ---
 *NOTE: Bài viết này hoàn toàn là những quan điểm cá nhân, dựa vào hành trình làm việc và phát triển của cá nhân mình, không có bất kì dẫn chứng hay dựa vào bất kì nghiên cứu nào hết.*
 
-
+![Go for it! image](/assets/img/upload/brett-jordan-mhs7g_q-6me-unsplash.jpg "Go for it!")
 
 Giai đoạn vừa mới ra trường và cũng mới đi làm được một thời gian ngắn, mình làm việc cực kỳ hiệu quả, ít nhất là được mọi người đánh giá tốt đối với một đứa mới ra trường.
 
@@ -45,7 +45,5 @@ Và hơn hết là đối với người làm technical thì điều này lại 
 Nếu vẫn chưa tìm được một team như vậy, thì... hãy tiếp tục tìm, vì đó là điều kiện cần để bắt đầu, điều kiện cần để chúng ta có thể "Just do it" và tạo ra được giá trị mà chúng ta mong muốn.
 
 À bài này mình nhắc đến chữ **giá trị** khá nhiều, đối với mình những thứ có giá trị là những thứ đem lại lợi ích hoặc giải quyết được bất kì vấn đề nào trong cuộc sống cho người khác ở bất cứ lĩnh vực nào. Đó có thể là những nghiên cứu khoa học, robot hỗ trợ người tàn tật, các nghiên cứu cải tạo đất trồng rừng, bảo tồn động vật,... hay đối với lĩnh vực của mình thì có thể kể đến như là làm ra một mạng xã hội **không độc hại** thay thế cho facebook, tiktok chẳng hạn. Còn những việc ví dụ như làm ra một trang web bán hàng thông thường, hay làm ra những thứ vốn đã có đầy rẫy trên thị trường thì đối với cá nhân mình nó không mang lại giá trị, vì cho dù mình không làm thì cũng có đầy người khác làm rồi, không giải quyết được vấn đề nào của xã hội hết.
-
-
 
 Câu cú có hơi lủng củng, mong các bạn bỏ qua ^^
