@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nếu muốn làm một việc có giá trị thì ... "Just do it!"
+title: Điều kiện cần để có thể "Just do it!"
 date: 2022-01-16T08:50:04.234Z
 modified: 2022-01-16T08:50:04.247Z
 image: /assets/img/upload/brett-jordan-mhs7g_q-6me-unsplash.jpg
