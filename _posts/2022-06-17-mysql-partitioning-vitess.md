@@ -47,7 +47,7 @@ keywords:
 
 
 
-> Đây là bài present của mình tại Grokking Vietnam - Database Lab.
+> Đây là bài present của mình tại [Grokking Vietnam - Database Lab](https://www.grokking.org/).
 
 
 
