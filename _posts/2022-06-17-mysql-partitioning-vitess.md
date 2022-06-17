@@ -21,11 +21,9 @@ keywords:
 1. Intro.
 2. MySQL partitioning.
 3. Vitess.
-
    1. Giới thiệu sơ lược về Vitess.
    2. Architecture của Vitess.
    3. Các components chính của Vitess.
-
       1. VTGate.
       2. VTTablet.
       3. Topology service.
@@ -37,7 +35,6 @@ keywords:
    6. VReplication.
    7. Secondary Vindex.
    8. Các limit của Vitess.
-
       1. Cross-shard transactions.
       2. Cross-shard joins.
       3. Unsupported cases.
