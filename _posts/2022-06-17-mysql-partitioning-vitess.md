@@ -6,6 +6,7 @@ modified: 2022-06-17T02:39:12.172Z
 image: /assets/img/upload/vitess-horizontal.png
 tag:
   - Tech
+  - Database
 description: Các DB trong quá trình vận hành thì có thể xảy ra tình trạng data
   phình lên ở một/một số tables, lúc này việc xử lý query ở các tables này không
   còn hiệu quả và thậm chí là gây quá tải DB. Lúc này thì chia nhỏ data ở các
