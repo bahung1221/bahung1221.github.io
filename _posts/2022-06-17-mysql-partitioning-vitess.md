@@ -45,11 +45,15 @@ keywords:
 
 ### 1. Intro
 
+
+
+> Đây là bài present của mình tại Grokking Vietnam - Database Lab.
+
+
+
 Các DB trong quá trình vận hành thì có thể xảy ra tình trạng data phình lên ở một/một số tables, lúc này việc xử lý query ở các tables này không còn hiệu quả và thậm chí là gây quá tải DB.
 
 Lúc này thì chia nhỏ data ở các tables này ra nhiều phần là giải pháp hiệu quả nhất, bài present này sẽ giới thiệu 2 giải pháp tương ứng đối với system nhỏ và lớn đó là **MySQL partitioning** và **Sharding bằng Vitess**.
-
-
 
 - - -
 
@@ -82,8 +86,6 @@ MySQL sẽ chia data trên các partitioned table ra thành các subset dựa v�
 **Reference**:
 
 * https://dev.mysql.com/doc/mysql-partitioning-excerpt/8.0/en/partitioning.html
-
-
 
 - - -
 
@@ -354,11 +356,7 @@ Vitess hỗ trợ gần như mọi features/tools cần thiết đối với m�
 
 Điểm yếu là vì nó complex, không resilient như các NewSQL (TiDB, CockroachDB,...), quá trình migration tốn nhiều effort.
 
-
-
 Đối với mình, ở thời điểm hiện tại, nếu cần Horizontal scale một DB đang chạy, mình sẽ chọn TiDB thay vì Vitess để giảm thiểu chi phí cho quá trình migration và cả monitoring sau khi migrate.
-
-
 
 - - -
 
