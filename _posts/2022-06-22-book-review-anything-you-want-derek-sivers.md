@@ -14,15 +14,15 @@ keywords:
   - Anything You Want
   - Derek Sivers
 ---
+![](/assets/img/upload/163f0f91c3d8d82206d274318650050a-1-.jpg)
+
+
+
 > Khi bạn biến giấc mơ trở thành hiện thực cho-chính-mình, đó cũng sẽ là một giấc mơ trở thành hiện thực cho-người-khác nữa.
-
-
 
 Tên tiếng Việt được dịch bởi Nhà xuất bản Thế Giới: **"Thế Là Tôi Đã Dựng Nên Công Ty Của Mình Và Trở Thành Ông Chủ"**, một cái tên nghe khá là ... chuối và khiến cho mình không cảm thấy hứng khi lần đầu nghe đến cuốn sách này, nghe nó cứ xôi thịt thế nào ấy ^^!
 
 Tuy nhiên vì review trên Goodreads khá tích cực, cộng với giá sales trên Tiki khá rẻ và mình cũng đang định mua một vài cuốn sách khác nên mình quyết định mua kèm luôn ẻm cho đỡ tiền ship!
-
-
 
 Vì sách khá ngắn gọn, nên mình chỉ mất 2 đêm để đọc hết nó, bạn nào đọc nhanh thì chắc chỉ mất 1 đêm thôi.
 
