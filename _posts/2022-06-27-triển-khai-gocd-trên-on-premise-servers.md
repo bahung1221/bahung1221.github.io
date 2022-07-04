@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Triển khai GoCD trên on-premise servers
+title: Giới thiệu GoCD và triển khai trên on-premise servers
 date: 2022-06-27T09:28:49.884Z
 modified: 2022-06-27T09:28:49.914Z
 image: /assets/img/upload/003185fb-84ac-48e0-a75f-c27b730d5bbe_gocd_blogpost-followup-2x-1-.jpg
@@ -68,7 +68,7 @@ Ngoài ra còn có các thành phần quan trọng khác cần lưu ý như Job,
 
 Để dễ hình dung, mình chỉ lấy ví dụ triển khai GoCD cho trang blog của công ty, các project/product khác thì cũng tương tự.
 
-Mình có 2 server như sau:
+Mình có 2 server on-premise như sau:
 
 \- **Server 1**: là server mới mua, dùng để build code.
 
@@ -103,3 +103,9 @@ Tất nhiên việc này liên quan đến security nên mình không dám đán
 Khi có error, crash,... thì mình cần phải mở **console/file logs** để tìm kiếm stacktrace, tuy nhiên, các info/warning logs của GoCD phải nói là rất rất nhiều, loãng và rối, khiến quá trình debug trở nên rất khó chịu.
 
 Mình không rõ issue này có config được không tuy nhiên first look là nó không được phân loại kĩ lưỡng cho lắm.
+
+
+
+### 4. Lời kết
+
+GoCD **sau khi triển khai xong** thì khá dễ sử dụng, giao diện đơn giản (đẹp hơn Jenkins :'), dễ dàng và flexible trong quá trình custom các pipelines. Phù hợp với các tech company thích dùng hàng self-hosted hơn là dùng các cloud CI/CD services.
