@@ -5,9 +5,8 @@ date: 2022-08-22T15:05:12.331Z
 modified: 2022-08-22T15:05:12.335Z
 image: /assets/img/upload/huong-noi-khong-chi-la-sach-cho-nguoi-huong-noi-1024x978.jpeg
 tag:
+  - Book review
   - Lảm nhảm
-  - VSCode
-  - Minimalism
 description: Những ai trân trọng cuộc sống suy tư tĩnh tại sẽ thấy nhẹ lòng khi
   đọc bản tụng ca hùng hồn và xác thực mà Susan Cain dành tặng cho tính hướng
   nội và sẽ không còn cảm thấy có lỗi hay tự ti vì đã đưa ra một lựa chọn tốt
