@@ -15,10 +15,15 @@ keywords:
   - Book Review
   - Hướng Nội
   - Introvert
+  - Susan Cain
 ---
+![Hướng Nội - Susan Cain](/assets/img/upload/huong-noi-khong-chi-la-sach-cho-nguoi-huong-noi-1024x978.jpeg "Hướng Nội - Susan Cain")
+
 > "Những ai trân trọng cuộc sống suy tư tĩnh tại sẽ thấy nhẹ lòng khi đọc bản tụng ca hùng hồn và xác thực mà Susan Cain dành tặng cho tính hướng nội và sẽ không còn cảm thấy có lỗi hay tự ti vì đã đưa ra một lựa chọn tốt hơn!"
 >
 > \- Review từ MIHALY CSIKSZENTMIHALYI - Giáo sư ngành Tâm lý và Quản Trị.
+
+
 
 Đây là một trong số ít sách thiên về **tâm lý học** (level nhẹ nhàng) mà mình từng đọc. 
 
