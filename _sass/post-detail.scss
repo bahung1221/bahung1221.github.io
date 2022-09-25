@@ -1,0 +1,159 @@
+@import "variables";
+@import 'mixins';
+
+// Post wrapper
+.wrapper.post {
+  @include media-query($on-mobile) {
+    padding-left: $spacing-half;
+    padding-right: $spacing-half;
+  }
+}
+
+// Post meta
+.post-meta {
+  padding-top: 3px;
+  line-height: 1.3;
+  color: $gray;
+
+  time {
+    position: relative;
+    margin-right: 1.5em;
+
+    &::after {
+      background: $light;
+      bottom: 1px;
+      content: " ";
+      height: 2px;
+      position: absolute;
+      right: -20px;
+      width: 12px;
+    }
+  }
+
+  span[itemprop="author"] {
+    border-bottom: 1px dotted $light;
+  }
+}
+
+.post-nav {
+  display: flex;
+  position: relative;
+  margin-top: 5em;
+  border-top: 1px solid $light;
+  line-height: 1.4;
+
+  .post-nav-item {
+    border-bottom: 0;
+    font-weight: $bold-weight;
+    padding-bottom: 10px;
+
+    .post-title {
+      color: $black;
+    }
+
+    &:hover,
+    &:focus {
+      .post-title {
+        color: $text-link-blue-active;
+        opacity: 0.9;
+      }
+    }
+
+    .nav-arrow {
+      font-weight: $normal-weight;
+      font-size: $small-font-size;
+      color: $gray;
+      margin-bottom: 3px;
+    }
+
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    &:nth-child(odd) {
+      padding-left: 0;
+      padding-right: 20px;
+    }
+
+    &:nth-child(even) {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 20px;
+    }
+  }
+
+  @include media-query($on-mobile) {
+    display: block;
+    font-size: $small-font-size;
+
+    .post-nav-item {
+      display: block;
+      width: 100%;
+    }
+
+    .post-nav-item:nth-child(even) {
+      border-left: 0;
+      padding-left: 0;
+      border-top: 1px solid $light;
+    }
+  }
+}
+
+.post-updated-at {
+  font-family: "Ubuntu mono", "monospace";
+  margin-top: 30px;
+  display: block;
+}
+
+.comments-block {
+  margin-top: 50px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+body[data-theme="dark"] {
+  .post-meta {
+    color: $dark-gray;
+
+    time {
+      &::after {
+        background-color: $dark-light;
+      }
+    }
+
+    span[itemprop="author"] {
+      border-color: $dark-light;
+    }
+  }
+
+  .post-nav {
+    border-color: $dark-light;
+
+    .post-nav-item {
+      font-weight: $bold-weight;
+
+      .post-title {
+        color: $dark-white;
+        opacity: 0.9;
+      }
+
+      &:hover,
+      &:focus {
+        .post-title {
+          color: $dark-text-link-blue-active;
+        }
+      }
+
+      .nav-arrow {
+        color: $dark-gray;
+      }
+    }
+
+    @include media-query($on-mobile) {
+      .post-nav-item:nth-child(even) {
+        border-color: $dark-light;
+      }
+    }
+  }
+}
