@@ -31,6 +31,10 @@ fb_appid:
 collections:
   posts:
     output: true
+  external_posts:
+    output: false
+    # output: true
+    # permalink: /external-posts/:name
 
 # Markdown settings
 markdown: kramdown

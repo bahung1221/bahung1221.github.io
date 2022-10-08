@@ -27,6 +27,22 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Keywords", name: "keywords", multiple: true, widget: "list", field: {label: Title, name: title}, max: 20, minimize_collapsed: true, collapsed: true, allow_add: true}
 
+  - name: "external_posts"
+    label: "External Posts"
+    folder: "_external_posts/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # YYYY-MM-DD-title.md
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "external_post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Crawl Date", name: "crawl_date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Tag", name: "tag", multiple: true, widget: "relation", collection: "relation", file: "tags", search_fields: ["tags.*.title"], value_field: "tags.*.title"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Blog", name: "blog", widget: "string"}
+      - {label: "Original URL", name: "original_url", widget: "string"}
+      - {label: "Original Publish Date", name: "original_publish_date", widget: "datetime"}
+
   - name: "relation"
     label: "Relation"
     files:

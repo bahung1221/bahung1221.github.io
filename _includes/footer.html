@@ -24,7 +24,21 @@
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '/assets/search.json',
+      json: '/assets/search_posts.json',
+    });
+  </script>
+{%- endif -%}
+
+{%- if page.url == '/external-posts/' -%}
+  <script>this.customElements || document.write('<script src="/assets/lib/fg-modal/polyfills/document-register-element.js" defer><script>');</script>
+  <script src="/assets/lib/fg-modal/polyfills/inert.js" defer></script>
+  <script src="/assets/lib/fg-modal/fg-modal.js" defer></script>
+  <script src="/assets/js/search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/search_external_posts.json',
     });
   </script>
 {%- endif -%}
