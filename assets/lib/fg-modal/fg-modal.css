@@ -28,6 +28,7 @@
   max-width: 850px;
 	overflow: auto;
   transform: translate(-50%, -50%);
+  overscroll-behavior: contain;
 }
 .modal-open {
 	visibility: visible;
@@ -83,7 +84,7 @@
 
 @media screen and (max-width: 767px) {
   .modal {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     max-width: unset;
     max-height: unset;

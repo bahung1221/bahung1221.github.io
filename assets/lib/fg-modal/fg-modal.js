@@ -108,6 +108,8 @@ class Modal extends HTMLElement {
 		this.focus();
 		this.addInert();
 		this.dispatchEvent( this.openEvent );
+
+    document.body.style.overflow = 'hidden'
 	}
 
 
@@ -127,6 +129,8 @@ class Modal extends HTMLElement {
 		}
 
 		this.dispatchEvent( this.closeEvent );
+
+    document.body.style.overflow = 'auto'
 	}
 
 	changeAssocLinkRoles(){

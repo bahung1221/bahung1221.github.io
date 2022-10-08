@@ -40,9 +40,12 @@ figure {
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 // Basic styling
 body {
-  min-height: 100vh;
   overflow-x: hidden;
   position: relative;
   color: $text-base-color;
