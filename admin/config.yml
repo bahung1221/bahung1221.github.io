@@ -27,7 +27,6 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Keywords", name: "keywords", multiple: true, widget: "list", field: {label: Title, name: title}, max: 20, minimize_collapsed: true, collapsed: true, allow_add: true}
 
-collections:
   - name: "external_posts"
     label: "External Posts"
     folder: "_external_posts/"
