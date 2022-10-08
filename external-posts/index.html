@@ -15,7 +15,7 @@ comments: false
 
 <ul id="search-results"></ul>
 
-{%- for post in site.external_posts -%}
+{%- for post in site.external_posts reversed -%}
   {%- assign display_date = post.original_publish_date -%}
   {%- if post.original_publish_date == null and post.original_publish_date == "" -%}
     {%- assign display_date = post.crawl_date -%}
