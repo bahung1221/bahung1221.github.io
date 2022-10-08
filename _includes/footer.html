@@ -4,7 +4,7 @@
   <a class="footer_item" href="/feed.xml">rss</a>
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
 </footer>
-<script src="/assets/js/main.js" defer="defer"></script>
+<script src="/assets/js/main.js?v=1" defer="defer"></script>
 
 {%- if jekyll.environment == "production" and site.google_analytics -%}
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -32,7 +32,7 @@
 {%- if page.url == '/external-posts/' -%}
   <script>this.customElements || document.write('<script src="/assets/lib/fg-modal/polyfills/document-register-element.js" defer><script>');</script>
   <script src="/assets/lib/fg-modal/polyfills/inert.js" defer></script>
-  <script src="/assets/lib/fg-modal/fg-modal.js" defer></script>
+  <script src="/assets/lib/fg-modal/fg-modal.js?v=1" defer></script>
   <script src="/assets/js/search.min.js"></script>
   <script>
     var sjs = SimpleJekyllSearch({
