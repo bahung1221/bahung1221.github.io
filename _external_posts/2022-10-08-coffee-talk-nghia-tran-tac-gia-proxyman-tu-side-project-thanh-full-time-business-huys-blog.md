@@ -5,6 +5,6 @@ crawl_date: 2022-10-08T15:10:00Z
 image: https://snacky.blog/posts/img/interview/proxyman/feature.png
 blog: https://snacky.blog
 original_url: https://snacky.blog/posts/interview-nghia-tran-proxyman.html
-original_publish_date: 
+original_publish_date: 2019-11-17T15:10:00Z
 ---
 
