@@ -11,14 +11,14 @@
 	height: 100%;
 	bottom: 0;
 	right: 0;
-	background: rgba(255, 255, 255, .5);
+	background: rgba(0, 0, 0, .5);
 	display: none;
 }
 .modal {
   border-radius: 8px;
 	visibility: hidden;
   z-index: 1001;
-	background: #000;
+	background: #fff;
 	box-sizing: border-box;
 	padding: 5vh;
 	top: 50%;
@@ -90,4 +90,11 @@
     border-radius: 0;
     padding: 15px;
   }
+}
+
+body[data-theme="dark"] .modal_screen {
+  background: rgba(255, 255, 255, .5);
+}
+body[data-theme="dark"] .modal {
+  background: #000;
 }

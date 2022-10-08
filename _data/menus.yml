@@ -10,6 +10,10 @@
   url: /tags/
   external: false
 
+- title: nice blogs
+  url: /external-posts/
+  external: false
+
 # Example:
 # - title: github
 #   url: https://github.com/piharpi/jekyll-klise

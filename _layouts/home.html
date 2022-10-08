@@ -14,5 +14,10 @@ home: true
 {%- endfor -%}
 {% assign total_posts = site.posts | size %}
 {% if total_posts > site.number_of_posts %}
-<a class="readmore" href="/archive/">❤ want more? &#8594;</a>
+<div>
+  <a class="readmore" href="/archive/">❤ want more? &#8594;</a>
+</div>
+<div>
+  <a class="readmore" href="/external-posts/">★ or read from other bloggers? &#8594;</a>
+</div>
 {% endif %}
