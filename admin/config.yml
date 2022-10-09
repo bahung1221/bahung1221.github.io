@@ -37,7 +37,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Crawl Date", name: "crawl_date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Tag", name: "tag", multiple: true, widget: "relation", collection: "relation", file: "tags", search_fields: ["tags.*.title"], value_field: "tags.*.title"}
+      - {label: "Tag", name: "tag", multiple: true, required: false, widget: "relation", collection: "relation", file: "external_tags", search_fields: ["external_tags.*.title"], value_field: "external_tags.*.title"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Blog", name: "blog", widget: "string"}
       - {label: "Original URL", name: "original_url", widget: "string"}
@@ -52,6 +52,16 @@ collections:
         fields:
           - label: Tags
             name: tags
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: markdown, required: false}
+      - label: "External Tags"
+        name: "external_tags"
+        file: "_relation/external_tags.yml"
+        fields:
+          - label: Tags
+            name: external_tags
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
