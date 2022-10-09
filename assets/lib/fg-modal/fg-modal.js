@@ -98,12 +98,9 @@ class Modal extends HTMLElement {
 		}
 	}
 
-	open( programmedOpen ){
+	open(){
 		this.dispatchEvent( this.beforeOpenEvent );
 		this.classList.add( "modal-open" );
-		if( !programmedOpen ){
-			this.focusedElem = this.activeElem;
-		}
 		this.closed = false;
 		this.focus();
 		this.addInert();
