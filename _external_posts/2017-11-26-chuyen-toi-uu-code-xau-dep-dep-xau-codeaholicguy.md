@@ -3,6 +3,9 @@ layout: external_post
 title: Chuyện tối ưu code, xấu đẹp, đẹp xấu – Codeaholicguy
 crawl_date: 2022-10-08T12:00:56.000Z
 image: https://codeaholicguy.files.wordpress.com/2017/11/optimize.jpg?w=1200
+tag:
+  - Life
+  - Technical
 blog: https://codeaholicguy.com
 original_url: https://codeaholicguy.com/2017/11/27/chuyen-toi-uu-code-xau-dep-dep-xau/
 original_publish_date: 2017-11-26T23:03:31+00:00
