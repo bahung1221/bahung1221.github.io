@@ -5,7 +5,7 @@ crawl_date: 2022-11-08T14:27:13.176Z
 image: /assets/img/upload/solid.png
 tag:
   - Technical
-blog: www.freecodecamp.org
+blog: https://www.freecodecamp.org
 original_url: https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
 original_publish_date: 2020-08-19T17:00:44.111Z
 ---
