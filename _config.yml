@@ -1,8 +1,8 @@
 # Site settings
 title: Blog của Hưng # site title
 description: >- # site description
-  Minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính.<br>
-  Lúc thì viết tiếng Việt, hứng lên thì quên luôn tiếng người... Tìm tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
+  We need to forgive ourselves for all the things we didn't do. All the things we should have done.<br>
+  You can't get stuck on the regrets of what should have happened...
 lang: vi # default lang
 timezone: Asia/Ho_Chi_Minh # set your timezone
 image: assets/img/ogp.jpg # This image used for Open Graph more info https://ogp.me/
@@ -12,8 +12,8 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Hưng # author name
   bio: >- # tell to the world
-    Minimalist blog của một tên dev ất ơ nào đó, viết về technical và lảm nhảm là chính.<br>
-    Lúc thì viết tiếng Việt, hứng lên thì quên luôn tiếng người... Tìm tui tại <a href="https://github.com/bahung1221" target="_blank" rel="noopener">@github</a>.
+    We need to forgive ourselves for all the things we didn't do. All the things we should have done.<br>
+    You can't get stuck on the regrets of what should have happened...
   username: bahung1221 # general username
   github: bahung1221 # github username
   facebook: # facebook username
